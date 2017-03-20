@@ -11,13 +11,21 @@
     tools:showIn="@layout/activity_main" tools:context=".MainActivity">
 
 
+
+
+
     <Button
-        android:background="#FF4081"
+        android:background="@color/colorAccent"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:id="@+id/activate_button"
-        android:text="Flash"
+        android:text="Switch"
         android:layout_centerVertical="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        style="@android:style/Widget.Holo.Button.Toggle"
+        android:elevation="7dp"
+        android:hapticFeedbackEnabled="true" />
+
+
 
 </RelativeLayout>
